@@ -3,9 +3,9 @@ def game_hash
   hashketball = {
     home: {
       team_name: "Brooklyn Nets",
-      colors: ["Black," "White"],
+      colors: ["Black", "White"],
       players: [
-        player:{
+        player_name:{
 
         },
         number:{
@@ -13,12 +13,30 @@ def game_hash
         },
         shoe:{
 
-          }
+        },
+        points:{
+
+        },
+        rebounds:{
+
+        },
+        assists:{
+
+        },
+        steals:{
+
+        },
+        blocks:{
+
+        },
+        slam_dunks:{
+
+        }
       ]
     },
     away: {
       team_name: "Charlotte Hornets",
-      colors: [],
+      colors: ["Turquoise", "Purple"],
       players: []
 
     }
